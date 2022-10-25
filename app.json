@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "my_assignment_app",
-    "slug": "my_assignment_app",
+    "name": "hearthstone_fetch",
+    "slug": "hearthstone_fetch",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Hearthstone-Logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Hearthstone-Logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

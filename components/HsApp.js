@@ -13,6 +13,7 @@ const renderItems = ({ item }) => (
 );
 
 
+
 const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
 
   const options = {
@@ -28,7 +29,7 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
       .then(response => response.json())
       .then(response => {
         fetchedResponse(response)
-        console.log(response.classes + "has been sent")
+        console.log("Response has been recieved")
       })
       .catch(err => console.error(err));
   }
@@ -37,6 +38,7 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
 
   return (
 
+ 
     <View style={styles.container}>
 
       <Image style={{ width: 375, height: 250 }} resizeMode={'center'} source={{ uri: 'https://i.pinimg.com/originals/e6/7e/de/e67ede821c5f61dc1d6bdfe9d6c21206.jpg' }} />
@@ -46,7 +48,6 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
         <Text style={styles.credittext}>API provided by omgvamp via RapidAPI </Text>
         <Text style={styles.credittext}>App developed by Anthony Elia </Text>
       </View>
-      {console.log("classes works see? " + bagOfInfo.classes[2])}
 
       <View style={styles.buttonforfetch}>
         <Button onPress={() => dataFetch()} title="Fetch Game Data" color="#e6ac00" />
