@@ -60,7 +60,7 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
           <ScrollView style={{ height: '100%', width: '100%' }}>
             <View style={styles.sections}>
               <Text style={styles.subheader}>Classes</Text>
-              <Image style={styles.imageheader} resizeMode={'center'} source={{ uri: 'https://preview.redd.it/lg3tmyg6q0b81.jpg?width=640&crop=smart&auto=webp&s=9f4be234f09ed623326afb04dc5e1e615358e496' }} />
+              <Image style={styles.imageheader} resizeMode={'center'} source={require('../assets/lg3tmyg6q0b81.png')} />
               <FlatList data={bagOfInfo.classes} renderItem={renderItems} />
             </View>
           </ScrollView>
@@ -68,7 +68,7 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
           <ScrollView style={{ height: '100%', width: '100%' }}>
           <View style={styles.sections}>
               <Text style={styles.subheader}>Sets</Text>
-              <Image style={styles.imageheader} resizeMode={'center'} source={{ uri: 'https://images.blz-contentstack.com/v3/assets/bltc965041283bac56c/blt0244d23dc23be333/62a9fd9657e9c21147b72f61/HS_24_logo_enUS.png' }} />
+              <Image style={styles.imageheader} resizeMode={'center'} source={require('../assets/HS_24_logo_enUS.png')} />
               <ScrollView style={{height:225, width:'100%'}}>
               <FlatList data={bagOfInfo.sets} renderItem={renderItems} />
               </ScrollView>
@@ -78,7 +78,7 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
           <ScrollView style={{ height: '100%', width: '100%' }}>
           <View style={styles.sections}>
               <Text style={styles.subheader}>Types</Text>
-              <Image style={styles.imageheader} resizeMode={'center'} source={{ uri: 'https://bnetcmsus-a.akamaihd.net/cms/page_media/EEIH17JPLOTH1527296496242.jpg' }} />
+              <Image style={styles.imageheader} resizeMode={'center'} source={require('../assets/EEIH17JPLOTH1527296496242.jpg')} />
               <FlatList data={bagOfInfo.types} renderItem={renderItems} />
             </View>
           </ScrollView>
@@ -86,7 +86,7 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
           <ScrollView style={{ height: '100%', width: '100%' }}>
           <View style={styles.sections}>
               <Text style={styles.subheader}>Factions</Text>
-              <Image style={styles.imageheader} resizeMode={'center'} source={{ uri: 'https://cdn.esports.gg/wp-content/uploads/2022/02/01024251/AllianceandHorde.jpg' }} />
+              <Image style={styles.imageheader} resizeMode={'center'} source={require('../assets/warcraft_orc_vs_humans.jpg')} />
               <FlatList data={bagOfInfo.factions} renderItem={renderItems} />
             </View>
           </ScrollView>
@@ -94,7 +94,7 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
           <ScrollView style={{ height: '100%', width: '100%' }}>
           <View style={styles.sections}>
               <Text style={styles.subheader}>Rarity</Text>
-              <Image style={styles.imageheader} resizeMode={'center'} source={{ uri: 'https://mzy11mzy.github.io/hearthstone/img/dust.png' }} />
+              <Image style={styles.imageheader} resizeMode={'center'} source={require('../assets/dust.png')} />
               <FlatList data={bagOfInfo.qualities} renderItem={renderItems} />
             </View>
           </ScrollView>
@@ -102,7 +102,7 @@ const HsApp = ({ bagOfInfo, fetchedResponse, clearResponse }) => {
           <ScrollView style={{ height: '100%', width: '100%' }}>
           <View style={styles.sections}>
               <Text style={styles.subheader}>Races</Text>
-              <Image style={styles.imageheader} resizeMode={'center'} source={{ uri: 'https://d1lss44hh2trtw.cloudfront.net/assets/editorial/2019/06/siegebreaker.jpg' }} />
+              <Image style={styles.imageheader} resizeMode={'center'} source={require('../assets/siegebreaker.jpg')} />
               <FlatList data={bagOfInfo.races} renderItem={renderItems} />
             </View>
           </ScrollView>
