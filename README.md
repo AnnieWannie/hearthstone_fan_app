@@ -7,4 +7,11 @@ Obtains details on classes, sets, factions, rarities, types and races.
 
 Works on iOS, Android, and Web
 
+## Before Fetch
+![image1](example1.png)
+## After Fetch
+![image2](example2.png)
+## Slider to view different details 
+![image3](example3.png)
+
 ### **Dependencies on Expo, React-Native, and Redux.**
